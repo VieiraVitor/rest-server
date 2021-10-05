@@ -1,7 +1,7 @@
 package domain
 
 type PaymentRequest struct {
-	ID          int32      `json:"id"`
+	ID          int        `json:"id"`
 	Amount      float64    `json:"amount"`
 	Description string     `json:"description"`
 	CreditCard  CreditCard `json:"creditCard"`
@@ -10,5 +10,5 @@ type PaymentRequest struct {
 type CreditCard struct {
 	Number string `json:"number"`
 	Name   string `json:"name"`
-	CVV    int32  `json:"cvv"`
+	CVV    int    `json:"cvv"`
 }

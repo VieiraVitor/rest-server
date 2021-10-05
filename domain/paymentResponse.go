@@ -1,6 +1,6 @@
 package domain
 
 type PaymentResponse struct {
-	ID       int32  `json:"id"`
+	ID       int    `json:"id"`
 	Response string `json:"response"`
 }
