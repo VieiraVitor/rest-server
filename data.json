@@ -1,0 +1,1 @@
+{"id": 1, "amount": 1000, "description": "Novo produto", "creditCard": { "number": "1234", "name": "Vitor", "cvv": 123 }}
